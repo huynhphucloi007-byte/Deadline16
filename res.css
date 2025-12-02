@@ -30,7 +30,7 @@
         gap: 30px;
         transition: all 0.3s ease;
     }
-    .header .box-menu .text-menu1 {
+    .header .box-menu .text-menu {
         display: none;
     }
 
@@ -749,3 +749,4 @@
         transition: all 0.3s ease;
     }
 }
+
