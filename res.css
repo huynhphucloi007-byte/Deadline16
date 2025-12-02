@@ -1,0 +1,755 @@
+/* responsive tablet */
+@media only screen and (max-width: 1171px) {
+    .background {
+        height: 4388px;
+        transition: all 0.3s ease;
+    }
+    .main-body {
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .header {        
+        height: 110px;
+        transition: all 0.3s ease;
+    }
+    .header .logo {
+        width: 146px;
+        font-size: 36px;
+        transition: all 0.3s ease;
+    }
+    .header .box-menu {
+        width: 409px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: all 0.3s ease;
+    }
+    .header .box-menu .text-menu1 {
+        display: none;
+    }
+
+    .section1 .container {
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .section1 .container .title {
+        max-width: 660px;
+        font-size: 48px;
+        transition: all 0.3s ease;
+    }
+    .section1 .container .text {
+        max-width: 660px;
+        font-size: 22px;
+        transition: all 0.3s ease;
+    }
+    .section1 .container .button {
+        width: 340px;
+        height: 70px;
+        font-size: 28px;
+        transition: all 0.3s ease;
+    }
+
+    .section2 .container .box-wrapper {
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: all 0.3s ease;
+    }
+    .section2 .container .box-wrapper .title {
+        font-size: 36px;
+        transition: all 0.3s ease;
+    }
+    .section2 .container .box-wrapper .box-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+        column-gap: 50px;
+        transition: all 0.3s ease;
+    }
+    .section2 .container .box-wrapper .box-item .item {
+        width: calc((100% - 50px) / 2);
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        transition: all 0.3s ease;
+    }
+    .section2 .container .box-wrapper .box-item .item1 {
+        width: calc((100% - 50px) / 2);
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        transition: all 0.3s ease;
+    }
+    .icon1 {
+        width: 80px;
+        height: 80px;
+        padding: 1px;
+        transition: all 0.3s ease;
+    }
+    .icon2{
+        width: 53px;
+        height: 80px;
+        padding: 1px;
+        transition: all 0.3s ease;
+    }
+    .icon3 {
+        width: 112px;
+        height: 80px;
+        padding: 1px;
+        transition: all 0.3s ease;
+    }
+    .icon4 {
+        width: 73px;
+        height: 80px;
+        padding: 1px;
+        transition: all 0.3s ease;
+    }
+
+    .section3 .container {
+        width: 100%;
+        max-width: 1200px;
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        transition: all 0.3s ease;
+    }
+    .section3 .container .title {
+        font-size: 36px;
+        transition: all 0.3s ease;
+    }
+    .section3 .container .box-item {
+        display: flex;
+        gap: 25px;
+        transition: all 0.3s ease;
+    }
+    .section3 .container .box-item .item {
+        display: none;
+    }
+    .section3 .container .box-item .item2 {
+        width: calc((100% - 25px) / 2);
+        max-width: 320px;
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 1);
+        background-color: var(--bg-item);
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        gap: 85px;
+        transition: all 0.3s ease;
+    }
+    .section3 .container .box-item .item3 {
+        width: calc((100% - 25px) / 2);
+        max-width: 320px;
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 1);
+        background-color: var(--bg-item);
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        gap: 85px;
+        transition: all 0.3s ease;
+    }
+
+    .section4 .container {
+        padding: 30px 0;
+        transition: all 0.3s ease;
+    }
+    .section4 .container .box-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        transition: all 0.3s ease;
+    }
+    .section4 .container .box-inner .title {
+        font-size: 36px;
+        transition: all 0.3s ease;
+    }
+    .section4 .container .box-inner .box-wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 17px;
+        row-gap: 30px;
+        transition: all 0.3s ease;
+    }
+    .section4 .container .box-inner .box-wrapper .item {
+        width: calc((100% - 17px) / 2);
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        transition: all 0.3s ease;
+    }
+    .step {
+        width: 80px;
+        height: 80px;
+        transition: all 0.3s ease;
+    }
+    .step2 {
+        width: 98px;
+        height: 80px;
+        transition: all 0.3s ease;
+    }
+    .section4 .container .box-inner .box-wrapper .item .text {
+        font-size: 22px;
+        transition: all 0.3s ease;
+    }
+    .section5 .container {
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        transition: all 0.3s ease;
+    }
+    .section5 .container .title {
+        font-size: 36px;
+        transition: all 0.3s ease;
+    }
+    .section5 .container .box-item {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        transition: all 0.3s ease;
+    }
+    .section5 .container .box-item .item1 {
+        width: calc((100% - 30px) / 2);
+        max-width: 320px;
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: all 0.3s ease;
+    }
+    .section5 .container .box-item .item2 {
+        width: calc((100% - 30px) / 2);
+        max-width: 320px;
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: all 0.3s ease;
+    }
+    .section5 .container .box-item .item3 {
+        display: none;
+    }
+    .section5 .container .box-item .content1 {
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        transition: all 0.3s ease;
+    }
+    .section5 .container .box-item .content2 {
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        transition: all 0.3s ease;
+    }
+
+    .section6 .container {
+        padding: 30px 0;
+        transition: all 0.3s ease;
+    }
+    .section6 .container .box-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: all 0.3s ease;
+    }
+    .section6 .container .box-inner .content .title {
+        font-size: 36px;
+        transition: all 0.3s ease;
+    }
+    .section6 .container .button {
+        width: 554px;
+        height: 61px;
+        font-size: 22px;
+        transition: all 0.3s ease;
+    }
+
+    .footer .container {
+        padding: 30px 0 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        transition: all 0.3s ease;
+    }
+    .footer .container .foot1 {
+        width: 100%;
+        max-width: 660px;
+        height: 62px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 30px;
+        row-gap: 10px;
+        transition: all 0.3s ease;
+    }
+    .footer .container .foot2 {
+        width: 100%;
+        max-width: 660px;
+        height: 62px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        transition: all 0.3s ease;
+    }
+    .footer .container .foot3 {
+        width: 100%;
+        max-width: 660px;
+        height: 62px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        transition: all 0.3s ease;
+    }
+
+}
+
+
+/* responsive mobile */
+@media only screen and (max-width: 700px) {
+    .background {
+        height: 3600px;
+        transition: all 0.3s ease;
+    }
+    .main-body {
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .header {        
+        height: 73px;
+        transition: all 0.3s ease;
+    }
+    .header .logo {
+        width: 146px;
+        font-size: 24px;
+        transition: all 0.3s ease;
+    }
+    .header .box-menu {
+        display: none;
+    }
+    .header .hamburger {
+        width: 30px;
+        height: 19px;
+        background-image: url(image/Menu.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+
+    .section1 .container {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .section1 .container .title {
+        max-width: 330px;
+        font-size: 22px;
+        transition: all 0.3s ease;
+    }
+    .section1 .container .text {
+        max-width: 330px;
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
+    .section1 .container .button {
+        width: 187px;
+        height: 43px;
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+
+    .section2 .container .box-wrapper {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: all 0.3s ease;
+    }
+    .section2 .container .box-wrapper .title {
+        font-size: 22px;
+        transition: all 0.3s ease;
+    }
+    .section2 .container .box-wrapper .box-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        transition: all 0.3s ease;
+    }
+    .section2 .container .box-wrapper .box-item .title {
+        font-size: 18px;
+        transition: all 0.3s ease;
+    }
+    .section2 .container .box-wrapper .box-item .text {
+        font-size: 18px;
+        transition: all 0.3s ease;
+    }
+    .section2 .container .box-wrapper .box-item .item {
+        width: 100%;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        transition: all 0.3s ease;
+    }
+    .section2 .container .box-wrapper .box-item .item1 {
+        width: 100%;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        transition: all 0.3s ease;
+    }
+    .icon1 {
+        width: 60px;
+        height: 60px;
+        padding: 2px;
+        transition: all 0.3s ease;
+    }
+    .icon2{
+        width: 40px;
+        height: 60px;
+        padding: 1px;
+        transition: all 0.3s ease;
+    }
+    .icon3 {
+        width: 84px;
+        height: 60px;
+        padding: 2px;
+        transition: all 0.3s ease;
+    }
+    .icon4 {
+        width: 55px;
+        height: 60px;
+        padding: 1px;
+        transition: all 0.3s ease;
+    }
+
+    .section3 .container {
+        width: 100%;
+        max-width: 1200px;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        transition: all 0.3s ease;
+    }
+    .section3 .container .title {
+        font-size: 22px;
+        transition: all 0.3s ease;
+    }
+    .section3 .container .box-item {
+        display: flex;
+        transition: all 0.3s ease;
+    }
+    .section3 .container .box-item .item {
+        display: none;
+    }
+    .section3 .container .box-item .item2 {
+        display: none;
+    }
+    .section3 .container .box-item .item3 {
+        width: 100%;
+        max-width: 330px;
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 1);
+        background-color: var(--bg-item);
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        gap: 54px;
+        transition: all 0.3s ease;
+    }
+    .section3 .container .box-item .box-content .title {
+        font-size: 18px;
+        transition: all 0.3s ease;
+    }
+    .section3 .container .box-item .box-content .text {
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
+    .section3 .container .box-item .button {
+        width: 148px;
+        height: 43px;
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+
+    .section4 .container {
+        padding: 20px 0;
+        transition: all 0.3s ease;
+    }
+    .section4 .container .box-inner .title {
+        max-width: 320px;
+        font-size: 22px;
+        transition: all 0.3s ease;
+    }
+    .section4 .container .box-inner .box-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: all 0.3s ease;
+    }
+    .section4 .container .box-inner .box-wrapper .item {
+        width: 100%;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        transition: all 0.3s ease;
+    }
+    .step {
+        width: 60px;
+        height: 60px;
+        transition: all 0.3s ease;
+    }
+    .step2 {
+        width: 74px;
+        height: 60px;
+        transition: all 0.3s ease;
+    }
+    .section4 .container .box-inner .box-wrapper .item .text {
+        font-size: 18px;
+        transition: all 0.3s ease;
+    }
+    .section5 .container {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        transition: all 0.3s ease;
+    }
+    .section5 .container .title {
+        font-size: 22px;
+        transition: all 0.3s ease;
+    }
+    .avt {
+        width: 70px;
+        height: 70px;
+    }
+    .section5 .container .box-item {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        transition: all 0.3s ease;
+    }
+    .section5 .container .box-item .item1 {
+        width: 100%;
+        max-width: 320px;
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        transition: all 0.3s ease;
+    }
+    .section5 .container .box-item .item2 {
+        display: none;
+    }
+    .section5 .container .box-item .item3 {
+        display: none;
+    }
+    .section5 .container .box-item .content1 {
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        transition: all 0.3s ease;
+    }
+    .section5 .container .box-item .content2 {
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        transition: all 0.3s ease;
+    }
+    .section5 .container .box-item .content1 .title {
+        font-size: 18px;
+        transition: all 0.3s ease;
+    }
+    .section5 .container .box-item .content1 .text {
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
+    .section5 .container .box-item .content2 .text {
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
+
+    .section6 .container {
+        padding: 20px 0;
+        transition: all 0.3s ease;
+    }
+    .section6 .container .box-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        transition: all 0.3s ease;
+    }
+    .section6 .container .box-inner .content .title {
+        font-size: 22px;
+        transition: all 0.3s ease;
+    }
+    .section6 .container .box-inner .content .text {
+        font-size: 18px;
+        transition: all 0.3s ease;
+    }
+    .section6 .container .button {
+        width: 179px;
+        height: 43px;
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+    .text-button {
+        display: none;
+    }
+
+    .footer .container {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        transition: all 0.3s ease;
+    }
+    .footer .container .foot1 {
+        width: 100%;
+        max-width: 330px;
+        height: 140px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        transition: all 0.3s ease;
+    }
+    .footer .container .foot2 {
+        width: 370px;
+        height: 44px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        transition: all 0.3s ease;
+    }
+    .footer .container .foot3 {
+        width: 100%;
+        max-width: 330px;
+        height: 17px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        transition: all 0.3s ease;
+    }
+    .footer .container .title {
+        font-size: 36px;
+        transition: all 0.3s ease;
+    }
+    .footer .container .item-f {
+        width: 100%;
+        font-size: 14px;
+        text-transform: capitalize;
+        transition: all 0.3s ease;
+    }
+    .footer .container .foot2 .item-f {
+        width: 100%;
+        font-size: 12px;
+        text-transform: none;
+        transition: all 0.3s ease;
+    }
+    .footer .container .foot3 .item-f {
+        width: 100%;
+        font-size: 12px;
+        text-transform: none;
+        transition: all 0.3s ease;
+    }
+}
