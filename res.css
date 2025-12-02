@@ -472,25 +472,21 @@
     .icon1 {
         width: 60px;
         height: 60px;
-        padding: 2px;
         transition: all 0.3s ease;
     }
     .icon2{
         width: 40px;
         height: 60px;
-        padding: 1px;
         transition: all 0.3s ease;
     }
     .icon3 {
         width: 84px;
         height: 60px;
-        padding: 2px;
         transition: all 0.3s ease;
     }
     .icon4 {
         width: 55px;
         height: 60px;
-        padding: 1px;
         transition: all 0.3s ease;
     }
 
